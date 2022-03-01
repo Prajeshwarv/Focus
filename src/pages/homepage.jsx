@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-
 import "./css/homepage.scss";
+
 class HomePage extends Component {
   state = {};
+
   navToggle = (_) => {
     const primaryNav = document.querySelector(".primary-navigation");
     const navToggle = document.querySelector(".mobile-nav-toggle");
@@ -15,11 +16,12 @@ class HomePage extends Component {
       navToggle.setAttribute("aria-expanded", "false");
     }
   };
+
   render() {
     return (
       <div>
-        <header class="primary-header flex">
-          <div class="logo">
+        <header className="primary-header flex">
+          <div className="logo">
             <h4>Focus</h4>
           </div>
           <button
@@ -34,7 +36,7 @@ class HomePage extends Component {
             <ul
               id="primary-navigtion"
               data-visible="false"
-              class="primary-navigation flex"
+              className="primary-navigation flex"
             >
               <li>
                 <a href="/#">

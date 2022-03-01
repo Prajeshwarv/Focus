@@ -17,7 +17,7 @@ $nav-text-color: #bdbdc7;
   align-items: center;
   justify-content: space-between;
   background: $nav-background;
-  height: 15vh;
+  height: 10vh;
 
   a {
     color: $nav-text-color;
@@ -83,6 +83,6 @@ $nav-text-color: #bdbdc7;
   .primary-navigation{
     --gap: 2em;
     padding-block: 2rem;
-    padding-inline: clamp(3rem, 10vw, 10rem);
+    padding-inline: clamp(3rem, 8vw, 10rem);
   }
 }

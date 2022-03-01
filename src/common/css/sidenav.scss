@@ -8,7 +8,7 @@ $side-nav-hover-color: linear-gradient(to right, #5772FE , #6D85FB);
 
 .menu-button {
   position: absolute;
-  top: 1em;
+  top: 0.5em;
   left: 1em;
   background: transparent;
   border: 0;
@@ -23,7 +23,7 @@ $side-nav-hover-color: linear-gradient(to right, #5772FE , #6D85FB);
   bottom: 0;
   left: 0;
   right: 80%;
-  z-index: 10;
+  z-index: 1000;
   
   transform: translateX(-100%);
   transition: transform ease-out 250ms;
