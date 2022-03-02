@@ -102,5 +102,13 @@ $side-nav-hover-color: linear-gradient(to right, #5772FE , #6D85FB);
 }
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 0px;
   }
+
+.navbar-main{
+  max-width: 81vw;
+}
+.navbar-top{
+  width: 77%;
+  transition: all;
+}

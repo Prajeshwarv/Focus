@@ -13,6 +13,8 @@ class Dashboard extends Component {
 
   navToggle = (_) => {
     document.querySelector(".body").classList.toggle("nav-is-open");
+    document.querySelector(".main").classList.toggle("navbar-main");
+    document.querySelector(".header").classList.toggle("navbar-top");
   };
 
   render() {
@@ -37,23 +39,23 @@ class Dashboard extends Component {
                 <ul className="navigation flex">
                   <li>
                     <a href="/#">
-                      <i class="fa-solid fa-bell"></i>
+                      <i className="fa-solid fa-bell"></i>
                     </a>
                   </li>
                   <li>
                     <a href="/#">
-                      <i class="fa-solid fa-envelope"></i>
+                      <i className="fa-solid fa-envelope"></i>
                     </a>
                   </li>
                   <li>
                     <a href="/#">
-                      <i class="fa-solid fa-user"></i>
+                      <i className="fa-solid fa-user"></i>
                     </a>
                   </li>
                 </ul>
               </nav>
             </header>
-            <main>
+            <main className="main">
               <section>
                 <div className="container">
                   <div className="product-grid">
