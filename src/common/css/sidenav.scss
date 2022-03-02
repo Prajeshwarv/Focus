@@ -8,7 +8,7 @@ $side-nav-hover-color: linear-gradient(to right, #5772FE , #6D85FB);
 
 .menu-button {
   position: absolute;
-  top: 0.5em;
+  top: 0.4em;
   left: 1em;
   background: transparent;
   border: 0;
@@ -39,7 +39,7 @@ $side-nav-hover-color: linear-gradient(to right, #5772FE , #6D85FB);
   justify-content: space-around;
   align-items: stretch;
   background: $side-nav-background;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  
 }
 
 .nav li {
@@ -47,6 +47,9 @@ $side-nav-hover-color: linear-gradient(to right, #5772FE , #6D85FB);
 //     border-bottom: 1px solid darkblue;
 //   }
   text-align: center;
+  i{
+    padding-right: 1em
+  }
 }
 
 .nav li:hover {
@@ -78,6 +81,7 @@ $side-nav-hover-color: linear-gradient(to right, #5772FE , #6D85FB);
     height: 100vh;
   .nav {
     transform: translateX(0);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
   }
   .container-all {
     transform: translateX(20%);
@@ -88,9 +92,9 @@ $side-nav-hover-color: linear-gradient(to right, #5772FE , #6D85FB);
   .open-icon {
     display: none;
   }
-  //   .menu-button {
-  //       transform: translateX(-70%);
-  //   }
+    .menu-button {
+        transform: translateX(-70%);
+    }
 }
 
 .container-all {

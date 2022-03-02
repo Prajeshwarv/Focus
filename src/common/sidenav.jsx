@@ -14,7 +14,7 @@ class SideNav extends Component {
           <ul>
             <h4 style={Focus}>Focus</h4>
             <li>
-              <a href="/#">Dashbord</a>
+              <a href="/#"> <i class="fa-solid fa-house"></i> Dashbord</a>
             </li>
             <li>
               <a href="/#">Charts</a>
